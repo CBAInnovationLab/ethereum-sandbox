@@ -1,0 +1,18 @@
+version: '2'
+services:
+  parity:
+    image: cbainnovationlab/parity:1.9.5
+    volumes:
+      - ./parity:/parity/config:ro
+    command:
+      --chain /parity/config/chain-spec.json
+      --jsonrpc-interface "0.0.0.0"
+      --jsonrpc-cors "*"
+      --no-ui
+      --gas-floor-target 34359738368
+      --gas-cap 34359738368
+      --gasprice 0
+      --reseal-min-period 0
+    ports:
+     - "8545:8545"
+     - "46656:46656"
