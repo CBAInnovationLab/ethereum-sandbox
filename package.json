@@ -42,7 +42,7 @@
     ]
   },
   "dependencies": {
-    "ethers": "3.0.15",
+    "ethers": "3.0.19",
     "truffle": "4.1.11",
     "ts-node": "6.1.0"
   }
