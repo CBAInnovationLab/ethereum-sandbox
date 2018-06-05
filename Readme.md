@@ -1,4 +1,4 @@
-## Ethereum Sandbox
+## Ethereum Sandbox [![Build Status](https://api.travis-ci.org/CBAInnovationLab/ethereum-sandbox.svg?branch=master)](https://travis-ci.org/CBAInnovationLab/ethereum-sandbox)
 
 This is a skeleton app that can be used as the basis of an Ethereum based application.
 The genesis block includes a registry contract for looking up the address of deployed
